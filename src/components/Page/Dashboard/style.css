@@ -1,0 +1,25 @@
+.xs {
+    display: inline-flexbox;
+}
+
+.smallFont {
+    font-size: 1rem;
+}
+
+.sx {
+    border-radius: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .xs {
+        display: none;
+    }
+
+    .sx {
+        border-top-left-radius: 10px;
+    }
+
+    .smallFont {
+        font-size: 0.75rem;
+    }
+}
