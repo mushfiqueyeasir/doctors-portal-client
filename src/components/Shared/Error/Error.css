@@ -1,0 +1,32 @@
+.view {
+    height: 87vh;
+}
+
+.error {
+    font-weight: 900;
+    font-size: calc(2em + 8vw);
+    font-style: italic;
+}
+
+.doit {
+    font-weight: 600;
+    font-size: calc(1.5em + 1vw);
+    letter-spacing: -2.5px;
+}
+
+.doItButton {
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: calc(1.5em + 1vw);
+    font-weight: 900;
+    border-radius: 100px;
+    text-decoration: none !important;
+}
+
+.doItButton:hover {
+    text-decoration: none !important;
+    color: black;
+    background-color: whitesmoke;
+    border: 5px solid black;
+}
